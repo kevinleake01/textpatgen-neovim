@@ -1,0 +1,41 @@
+------------------------------
+----- THE ROAD TO NEOVIM -----
+------------------------------
+
+This is a line of text and code editors, starting from Ed, going to NeoVim.
+
+[1] --- ED ---
+
+Ed is the very first text editor for Unix, created in the early 1970's by
+Ken Thompson. It is a basic line editor, and is often used with Sed, a stream
+editor.
+
+
+[2] --- VI / EX ---
+
+In late 1976 into early 1977, Bill Joy created Vi on his ADM-3A Computer. It
+is a screen editor which meant creating and editing text was now a lot easier.
+Around the same time he created Ex which is a line editor similar to Ed, but
+with extensions - hence the name Ed with Extentions - Ex.
+
+As time went on, many Vi clones appeared, such as Nvi, which is now the only
+official version of Vi/Ex for BSD computers. It was not until January 2002
+when the original Vi/Ex became open-sourced!
+
+
+[3] --- VIM ---
+
+Vim, which means Vi Improved, arrived in early 1992 by Bram Moolenaar. This
+allowed configuration and plugins using Vimscript, and also allowed a new
+"Visual Mode" which made cut, copy and pasting text a lot easier. (In Vim
+this is known as Delete, Yank, and Put)
+
+
+[4] --- NEOVIM ---
+
+NeoVim arrived in November 2015, and it is a fork of Vim. Configuration and
+plugins were made even more easier by changing the scripts from Vimscript to
+Lua. It is now a proper code editor that adds Syntax Highlighting, Language
+Server Protocol and Tree-Sitter support.
+
+
