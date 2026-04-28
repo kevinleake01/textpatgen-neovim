@@ -1,0 +1,44 @@
+------------------------------------
+--- NEOVIM: DIFFERENCES FROM VIM ---
+------------------------------------
+
+NeoVim was officially forked from Vim in November 2015. It shares most
+features from Vim, but it should be noted that there are some changes.
+
+-------------------------------------------------
+[1] --- LUA Scripts ---
+
+NeoVim switched from Vimscript to Lua for configurations and plugins.
+Although you can still use older Vimscripts in NeoVim, it is now
+strongly recommended that you use Lua for most configurations and
+plugins. A word of warning - Vim9script is ** NOT SUPPORTED !! **
+
+The init script has been changed from ~/.vimrc to ~/.config/nvim/init.vim
+but you can also use ~/.config/nvim/init.lua as your startup script.
+
+-------------------------------------------------
+[2] --- No line editing from Ex ---
+
+NeoVim allows you to enter Ex commands using the ':' colon, same as Vi and
+Vim. However, NeoVim does not have the 'Q' Command to put the editor into
+Ex line editing mode, and it sends the error message:
+
+  E354: Invalid register name: '^@'
+
+-------------------------------------------------
+[3] --- Use of Arrow Keys and Mouse ---
+
+NeoVim has another nice treat for you. You can also use the Arrow Keys and
+the Mouse with the h,j,k,l keys for moving the cursor. This has been known
+to work in most terminals, including xterm.
+
+-------------------------------------------------
+[4] --- Extra Features ---
+
+NeoVim has a set of extra features that Vim does not have. They include
+Syntax Highlighting, Language Server Protocol (LSP), and Tree-Sitter
+support, plus many more features too many to list here. Adding to this list
+are many Lua plugins, making NeoVim a proper code editor.
+
+-------------------------------------------------
+

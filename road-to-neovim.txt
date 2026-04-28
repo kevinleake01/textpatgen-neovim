@@ -2,13 +2,15 @@
 ----- THE ROAD TO NEOVIM -----
 ------------------------------
 
-This is a line of text and code editors, starting from Ed, going to NeoVim.
+The Road to NeoVim is the family tree line of text and code editors that
+started from Ed, continued through the text editors Vi and Vim, finally
+ending with NeoVim.
 
 [1] --- ED ---
 
 Ed is the very first text editor for Unix, created in the early 1970's by
-Ken Thompson. It is a basic line editor, and is often used with Sed, a stream
-editor.
+Ken Thompson. It is a basic line editor, and is often used with the stream
+editors Grep, Sed, and Awk for more advanced search and replace commands.
 
 
 [2] --- VI / EX ---
